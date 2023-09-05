@@ -1,0 +1,230 @@
+body{
+    font-family: "montsarrat";
+}
+#title {
+    background-color: #ff4c68;
+  
+
+}
+.container-fluid{
+
+    padding: 3% 15% 6%;
+    
+}
+
+
+h1{
+    font-family: 'Russo One', sans-serif;
+    color: #fff;
+    font-size: 3.5rem;
+    line-height: 1.5;
+   
+}
+h3{   
+    color: black;
+    
+    font-family: 'Poppins', sans-serif;
+      
+    font-size: 2.1rem;
+
+    
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    
+    font-size: 2.8rem;
+    line-height: 3rem;
+
+    
+}
+
+
+/* navigation bar */
+.navbar-toggler:hover{
+    color: black;
+
+
+}
+.navbar-brand{
+
+    font-family: 'Ubuntu', sans-serif;
+    font-size:2.5rem;
+    font-weight: bold;
+}
+
+.navbar{
+    padding:0 0 4.5rem;
+}
+.nav-item{
+    
+    padding: 0 18px;
+
+
+}
+.nav-link{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem;
+}
+
+/* dowlond bottons */
+
+.download-button{
+
+    margin: 5% 3% 5% 0;
+}
+/* title */
+.title-image{
+    width: 22%;
+    transform: rotate(25deg);
+     left: 55%;
+    position: absolute;
+      
+}
+/* features */
+
+#features{
+    padding: 7% 15%;
+       position: relative;
+    
+    background-color: white;
+  
+}
+.icon{
+    color:#ef8172;
+    padding-bottom: 1rem;
+}
+.div1{
+    text-align: center;
+    
+    
+}
+.icon:hover{
+    color: #ff4c68 ;
+
+}
+
+p{
+    color: #8f8f8f;
+    line-height: 1.5rem;
+    font-size: 1.2rem;
+}
+
+/* testimonialss*/
+#testimonials{
+    
+    text-align: center;
+    color: white;
+    background-color: #ef8172;
+}
+.test-image{
+    
+    margin: 20px;
+    border-radius: 100%;
+    width: 10%;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* press */
+#press{
+    background-color:#ef8172 ;
+    text-align: center;
+    padding-bottom: 3%;
+    
+    
+}
+.press-images{
+    width: 15%;
+ padding: 20px 20px 50px;
+}
+
+
+
+/* pricing */
+#pricing{
+    padding: 100px;
+}
+.sy{
+    background-color: red;
+}
+.card-body{
+    text-align: center;
+}
+
+#op{
+      width: 320px;
+      height:60px;
+}
+#plan{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    
+    color: black;
+}
+#sy{
+    text-align:center;
+}
+    .h2{
+      
+        font-family: 'Palanquin Dark', sans-serif;
+        font-size: 3rem;
+    }
+.pricing-column{
+    padding: 3% 2%;
+}
+/* @mediia query sectiom*/
+@media (max-width:1021px){
+    .title-image{
+      position: static;
+      width: 70%;
+      transform: rotate(0);
+      
+        
+    }
+    #title{
+         
+        text-align: center;
+    }
+}
+/* call tto action */
+  #cta{
+    text-align: center;
+    background-color: #ff4c68;
+    padding:100px
+
+  }
+  .lo{
+    font-family: 'Russo One', sans-serif;
+    font-size: 90px;
+    
+    color: #fff;
+  }
+  /* footer */
+  #footer{
+    text-align:center;
+    padding: 100px;
+  }
+  i{
+padding-bottom: 2%;
+ margin: 10px;
+
+  }
+  .mn{
+    font-size: 2rem;
+  }
+a{
+    color: black;
+}
+
+  .hg{
+    font-size: xx-large;
+    
+  }
+  @media (max-width:1021px){
+    .hg{
+        margin-bottom: 5%;
+    }
+  }
